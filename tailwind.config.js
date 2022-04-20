@@ -11,6 +11,9 @@ module.exports = {
         'hot-pink': '#CB30E3',
         'dream-cicle': '#FFA84E',
       },
+      fontFamily: {
+        epilogue: ['Epilogue', 'sans-serif'],
+      },
     },
   },
   plugins: [],
