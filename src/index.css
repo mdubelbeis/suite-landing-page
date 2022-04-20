@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply text-[18px] font-epilogue text-dark-blue;
+    @apply text-[18px] font-epilogue text-dark-blue bg-light-cream;
   }
 
   h1 {
