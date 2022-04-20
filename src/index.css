@@ -28,6 +28,10 @@
   footer {
     @apply text-[15px];
   }
+
+  p {
+    @apply text-[16px];
+  }
 }
 
 .quote {
@@ -35,7 +39,7 @@
 }
 
 .action-btn {
-  @apply p-4 text-[12px] bg-dark-blue text-light-cream rounded-md font-bold hover:bg-gradient-to-br from-dull-purple via-hot-pink to-dream-cicle;
+  @apply mb-8 text-center inline-block w-9/12 max-w-xl p-4 text-[16px] bg-dark-blue text-light-cream rounded-md font-bold hover:bg-gradient-to-br from-dull-purple via-hot-pink to-dream-cicle;
 }
 
 .header-btn {
