@@ -33,3 +33,11 @@
 .quote {
   @apply text-[20px];
 }
+
+.action-btn {
+  @apply p-4 text-[12px] bg-dark-blue text-light-cream rounded-md font-bold hover:bg-gradient-to-br from-dull-purple via-hot-pink to-dream-cicle;
+}
+
+.header-btn {
+  @apply p-4 border-[1px] text-[12px] border-dark-blue rounded-md font-bold hover:bg-dark-blue hover:text-light-cream;
+}
