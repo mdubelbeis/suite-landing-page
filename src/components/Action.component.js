@@ -7,9 +7,9 @@ import Button from './Button.component';
 const Action = () => {
   const [style, setStyle] = useState('action-btn');
   return (
-    <div className="relative mt-14 flex flex-col">
+    <div className="relative mt-14 flex flex-col px-4">
       <img
-        className="absolute top-0 left-[155px] w-36 inline-block"
+        className="absolute top-0 left-[172px] w-36 inline-block"
         src={Arch}
         alt=""
       />
