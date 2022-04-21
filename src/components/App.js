@@ -6,11 +6,13 @@ import Footer from './Footer.component';
 
 const App = () => {
   return (
-    <div className="container w-full mx-auto">
+    <>
       <Header />
-      <Info />
+      <main className="w-auto mx-auto md:px-4 overflow-hidden">
+        <Info />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 };
 
