@@ -5,7 +5,7 @@ import insta from '../assets/icon-instagram.svg';
 
 const Footer = () => {
   return (
-    <div className="w-screen bg-dark-cream p-20 space-y-10 flex flex-col justify-center items-center">
+    <div className="relative w-screen bg-dark-cream p-20 space-y-10 flex flex-col justify-center items-center md:relative md:-z-10 md:flex-row md:justify-between md:items-end md:p-10">
       <img src={logo} alt="suite logo" />
       <small>Copyright - Suite</small>
 
