@@ -11,6 +11,9 @@ module.exports = {
         'hot-pink': '#CB30E3',
         'dream-cicle': '#FFA84E',
       },
+      backgroundImage: {
+        'blur-pattern': "url('/src/assets/pattern-blur.svg')",
+      },
       fontFamily: {
         epilogue: ['Epilogue', 'sans-serif'],
       },
