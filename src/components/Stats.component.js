@@ -2,7 +2,7 @@ import React from 'react';
 
 const Stats = () => {
   return (
-    <div className="text-center mt-12 space-y-6">
+    <div className="text-center mt-12 space-y-6  md:flex md:justify-around md:items-center md:object-fit md:space-y-0 md:mt-20">
       <div>
         <h2>2K+</h2>
         <p className="text-grey tracking-widest">COMPANIES</p>
