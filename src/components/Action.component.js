@@ -17,7 +17,7 @@ const Action = () => {
         A <span className="font-bold">super solution</span> for your
         <span className="font-bold"> business.</span>
       </p>
-      <p className="mt-8 mb-8 text-grey leading-7">
+      <p className="mt-8 mb-8 text-grey leading-7 tracking-normal">
         Our marketing and sales automations help you scale your
         outreach to get more leads for your company.
       </p>

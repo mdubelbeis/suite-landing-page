@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Image from './Image.component';
 import Action from './Action.component';
+import Image from './Image.component';
 import Stats from './Stats.component';
 
 const Info = () => {
