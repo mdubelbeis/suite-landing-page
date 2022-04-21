@@ -5,7 +5,7 @@ import Button from './Button.component';
 const Header = () => {
   const [style, setStyle] = useState('header-btn');
   return (
-    <div className="flex py-4">
+    <div className="flex py-6 px-4">
       <div className="mr-auto">
         <img src={Logo} alt="Logo" />
       </div>
