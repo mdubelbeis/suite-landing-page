@@ -31,7 +31,7 @@ const Image = () => {
   }, [windowWidth]);
 
   return (
-    <div className="flex justify-center px-4">
+    <div className="flex justify-center px-4 md:absolute md:right-4 md:top-[150px] md:-z-10 md:h-[482px] md:w-[300px] md:px-0 md:block">
       <img src={image} alt="logo" />
     </div>
   );
