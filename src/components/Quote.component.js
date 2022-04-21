@@ -30,7 +30,7 @@ const Quote = () => {
         <img src={blur} alt="blur" />
       </div>
       <img
-        className="absolute -top-[140px] w-48 z-10 lg:ml-14 lg:-top-[100px] lg:w-80"
+        className="absolute -top-[140px] w-48 z-10 lg:ml-14 lg:-top-[67px] lg:w-80"
         src={image}
         alt="image of guy on phone"
       />
@@ -39,7 +39,7 @@ const Quote = () => {
         src={curveUp}
         alt="curved line"
       />
-      <div className="text-center px-2 md:px-6 lg:ml-20 lg:w-6/12 lg:sticky lg:left-[600px] lg:text-left lg:px-10">
+      <div className="text-center px-2 md:px-6 lg:ml-20 lg:w-6/12 lg:sticky lg:left-[600px] lg:text-left lg:px-12">
         <p className="text-light-cream font-light text-[40px] leading-[50px] mb-8 lg:pt-4">
           It just <span className="font-extrabold">works.</span>
         </p>
