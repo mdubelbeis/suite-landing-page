@@ -6,7 +6,7 @@ import Footer from './Footer.component';
 
 const App = () => {
   return (
-    <div className="container py-6">
+    <div className="container w-full mx-auto">
       <Header />
       <Info />
       <Footer />
