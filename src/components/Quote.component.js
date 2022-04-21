@@ -24,7 +24,7 @@ const Quote = () => {
   }, [windowWidth]);
 
   return (
-    <div className="w-screen relative bg-dark-blue rounded-md flex flex-col items-center quote p-4 mt-48">
+    <div className="w-screen relative bg-dark-blue rounded-xl flex flex-col items-center quote p-4 mt-48">
       <img
         className="absolute -top-[140px] w-48"
         src={image}
