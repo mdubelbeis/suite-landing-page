@@ -33,7 +33,6 @@ const Image = () => {
   return (
     <div>
       <img src={image} alt="logo" />
-      <p>{windowWidth}</p>
     </div>
   );
 };
