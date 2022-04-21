@@ -13,7 +13,7 @@ const Action = () => {
         src={Arch}
         alt=""
       />
-      <p className="mt-6 text-[38px] text-left -tracking-[0.53px] md:text-[56px] md:tracking-wide md:mt-10">
+      <p className="mt-6 text-[38px] text-left -tracking-[0.53px] md:text-[56px] md:tracking-wide md:mt-10 ">
         A <span className="font-bold">super solution</span> for your
         <span className="font-bold"> business.</span>
       </p>

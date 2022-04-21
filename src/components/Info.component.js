@@ -8,9 +8,11 @@ import Quote from './Quote.component';
 const Info = () => {
   return (
     <div>
-      <Action />
-      <Image />
-      <Stats />
+      <div className="lg:flex lg:justify-between">
+        <Action />
+        <Image />
+        <Stats />
+      </div>
       <Quote />
     </div>
   );
