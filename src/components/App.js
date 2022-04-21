@@ -6,7 +6,7 @@ import Footer from './Footer.component';
 
 const App = () => {
   return (
-    <div className="container py-6 px-4">
+    <div className="container py-6">
       <Header />
       <Info />
       <Footer />
