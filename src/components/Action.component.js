@@ -7,13 +7,13 @@ import Button from './Button.component';
 const Action = () => {
   const [style, setStyle] = useState('action-btn');
   return (
-    <div className="mt-14 flex flex-col">
+    <div className="relative mt-14 flex flex-col">
       <img
-        className="w-36 inline-block ml-auto mr-10"
+        className="absolute top-0 left-[155px] w-36 inline-block"
         src={Arch}
         alt=""
       />
-      <p className="text-[38px] text-left -tracking-[0.53px] mt-2">
+      <p className="mt-6 text-[38px] text-left -tracking-[0.53px]">
         A <span className="font-bold">super solution</span> for your
         <span className="font-bold"> business.</span>
       </p>
