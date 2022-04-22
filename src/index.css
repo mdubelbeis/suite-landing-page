@@ -32,6 +32,10 @@
   p {
     @apply text-[16px] text-grey;
   }
+
+  a {
+    @apply active:bg-dream-cicle focus:bg-dream-cicle focus:outline-2 focus:outline-dark-blue;
+  }
 }
 
 .quote {

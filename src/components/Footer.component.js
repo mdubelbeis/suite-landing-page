@@ -7,7 +7,11 @@ const Footer = () => {
       <small>Copyright - Suite</small>
 
       <div className="flex gap-8">
-        <a href="https://www.facebook.com" target="_blank">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          className="focus:bg-yellow-500"
+        >
           <svg
             width="20"
             height="20"
