@@ -11,9 +11,9 @@ const Action = () => {
       <img
         className="absolute top-0 left-[172px] w-36 inline-block md:w-60 md:left-[260px]"
         src={Arch}
-        alt=""
+        alt="arch design"
       />
-      <p className="mt-6 text-[38px] text-left -tracking-[0.53px] md:text-[56px] md:tracking-wide md:mt-10 ">
+      <p className="mt-6 text-dark-blue text-[38px] text-left -tracking-[0.53px] md:text-[56px] md:tracking-wide md:mt-10">
         A <span className="font-bold">super solution</span> for your
         <span className="font-bold"> business.</span>
       </p>
