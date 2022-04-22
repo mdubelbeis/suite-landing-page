@@ -26,7 +26,7 @@ const Quote = () => {
 
   return (
     <div className="w-screen relative bg-dark-blue rounded-xl flex flex-col items-center quote mt-72 md:w-full lg:flex-row lg:h-[575px] ">
-      <div className="sticky md:-top-2 md:left-[300px] w-52 z-5 lg:absolute lg:left-0 lg:top-32 lg:w-[400px]">
+      <div className="sticky w-[300px] md:-top-0 z-5 lg:absolute lg:top-40 lg:w-[400px]">
         <img src={blur} alt="blur svg" />
       </div>
       <img
@@ -35,7 +35,7 @@ const Quote = () => {
         alt="image of guy on phone"
       />
       <img
-        className="mt-32 mb-2 w-24 h-20 md:mt-50 md:mb-4 overflow-hidden lg:sticky lg:left-[475px] lg:mb-32 lg:pr-8"
+        className="mt-8 mb-2 w-24 h-20 md:mb-4 lg:sticky lg:left-[475px] lg:mt-0 lg:mb-40 lg:pr-8"
         src={curveUp}
         alt="curved line graphic"
       />
