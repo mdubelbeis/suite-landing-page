@@ -7,7 +7,11 @@ const Footer = () => {
       <small>Copyright - Suite</small>
 
       <div className="flex gap-8">
-        <a href="https://www.facebook.com" target="_blank">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          id="facebook-link"
+        >
           <svg
             width="20"
             height="20"
@@ -20,7 +24,11 @@ const Footer = () => {
             />
           </svg>
         </a>
-        <a href="https://www.twitter.com" target="_blank">
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          id="twitter-link"
+        >
           <svg
             width="20"
             height="17"
@@ -33,7 +41,11 @@ const Footer = () => {
             />
           </svg>
         </a>
-        <a href="https://instagram.com" target="_blank">
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          id="instagram-link"
+        >
           <svg
             width="20"
             height="20"
