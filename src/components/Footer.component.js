@@ -2,7 +2,7 @@ import logo from '../assets/logo.svg';
 
 const Footer = () => {
   return (
-    <div className="w-full max-w-[1109px] mx-auto bg-dark-cream p-20 space-y-10 flex flex-col justify-center items-center md:flex-row md:justify-between md:items-end md:p-10 lg:mt-16">
+    <div className="w-full max-w-[1109px] mx-auto bg-dark-cream p-20 space-y-10 flex flex-col justify-center items-center md:flex-row md:justify-between md:items-end md:p-10">
       <img src={logo} alt="suite logo" />
       <small>Copyright - Suite</small>
 
