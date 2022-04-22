@@ -13,10 +13,10 @@ const Action = () => {
         src={Arch}
         alt="arch design"
       />
-      <p className="mt-6 text-dark-blue text-[38px] text-left -tracking-[0.53px] md:text-[56px] md:tracking-wide md:mt-10 lg:text-[58px]">
-        A <span className="font-bold">super solution</span> for your
-        <span className="font-bold"> business.</span>
-      </p>
+      <h1 className="mt-6 text-dark-blue text-[38px] text-left -tracking-[0.53px] md:text-[56px] md:tracking-wide md:mt-10 lg:text-[58px]">
+        <span className="font-normal">A</span> super solution
+        <span className="font-normal"> for your</span> business.
+      </h1>
       <p className="mt-8 mb-8 text-grey leading-7 tracking-normal md:pr-48">
         Our marketing and sales automations help you scale your
         outreach to get more leads for your company.
