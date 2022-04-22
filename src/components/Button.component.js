@@ -5,7 +5,6 @@ const Button = ({ btnStyle }) => {
         className={btnStyle}
         href="#"
         onClick={(e) => e.preventDefault()}
-        rel="button"
       >
         {' '}
         Request Beta Access

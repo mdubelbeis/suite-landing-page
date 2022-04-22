@@ -11,7 +11,7 @@ const Footer = () => {
           href="https://www.facebook.com"
           target="_blank"
           id="facebook-link"
-          rel="icon"
+          rel="external"
         >
           <svg
             width="20"
@@ -29,7 +29,7 @@ const Footer = () => {
           href="https://www.twitter.com"
           target="_blank"
           id="twitter-link"
-          rel="icon"
+          rel="external"
         >
           <svg
             width="20"
@@ -47,7 +47,7 @@ const Footer = () => {
           href="https://instagram.com"
           target="_blank"
           id="instagram-link"
-          rel="icon"
+          rel="external"
         >
           <svg
             width="20"
