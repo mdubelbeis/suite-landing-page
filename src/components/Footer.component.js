@@ -12,6 +12,7 @@ const Footer = () => {
           target="_blank"
           id="facebook-link"
           rel="external"
+          aria-label="Visit Facebook"
         >
           <svg
             width="20"
@@ -30,6 +31,7 @@ const Footer = () => {
           target="_blank"
           id="twitter-link"
           rel="external"
+          aria-label="Visit Twitter"
         >
           <svg
             width="20"
@@ -48,6 +50,7 @@ const Footer = () => {
           target="_blank"
           id="instagram-link"
           rel="external"
+          aria-label="Visit Instagram"
         >
           <svg
             width="20"
