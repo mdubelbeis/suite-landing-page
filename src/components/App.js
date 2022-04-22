@@ -14,7 +14,9 @@ const App = () => {
         <Info />
       </main>
       <div className="hidden lg:block md:absolute md:top-[1250px] md:bottom-0 md:-z-10 bg-dark-cream w-screen md:h-full lg:h-[500px]"></div>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
