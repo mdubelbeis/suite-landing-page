@@ -50,10 +50,10 @@ const Quote = () => {
         </q>
 
         <div>
-          <p className="text-light-cream mt-6 mb-1">
+          <p className="text-light-cream font-bold mt-6 mb-1">
             JEREMY ROBINSON
           </p>
-          <p className="font-dark-cream font-light text-[16px] leading-[26px] md:mb-10 ">
+          <p className="text-dark-cream font-light text-[16px] leading-[26px] tracking-widest md:mb-10 ">
             CMO, FYLO
           </p>
         </div>
