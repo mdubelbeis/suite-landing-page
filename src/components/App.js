@@ -8,10 +8,10 @@ const App = () => {
   return (
     <main>
       <Header />
-      <main className="w-auto mx-auto md:px-4 overflow-hidden max-w-[1109px] lg:py-10 lg:pb-0">
+      <div className="w-auto mx-auto md:px-4 overflow-hidden max-w-[1109px]">
         <Info />
-      </main>
-      <div className="hidden lg:block md:absolute md:top-[1200px] md:-z-10 bg-dark-cream w-screen md:h-[500px]"></div>
+      </div>
+      <div className="hidden lg:block md:absolute md:top-[1100px] md:-z-10 bg-dark-cream w-screen md:h-[600px]"></div>
       <Footer />
     </main>
   );
