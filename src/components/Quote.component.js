@@ -27,7 +27,7 @@ const Quote = () => {
   return (
     <div className="w-screen relative bg-dark-blue rounded-xl flex flex-col items-center quote p-4 mt-56 md:w-full lg:flex-row lg:p-10 ">
       <div className="sticky md:-top-2 md:left-[300px] w-52 z-5 lg:absolute lg:left-[60px] lg:top-40 lg:w-60">
-        <img src={blur} alt="blur" />
+        <img src={blur} alt="blur svg" />
       </div>
       <img
         className="absolute -top-[140px] w-48 z-10 lg:ml-14 lg:-top-[67px] lg:w-80"
@@ -37,7 +37,7 @@ const Quote = () => {
       <img
         className="mt-2 mb-10 w-20 h-20 md:mt-50 md:mb-4 overflow-hidden lg:sticky lg:left-[440px] lg:mb-32 lg:mr-10"
         src={curveUp}
-        alt="curved line"
+        alt="curved line graphic"
       />
       <div className="text-center px-2 md:px-6 lg:ml-20 lg:w-6/12 lg:sticky lg:left-[600px] lg:text-left lg:px-12">
         <p className="text-light-cream font-light text-[40px] leading-[50px] mb-8 lg:pt-4">
