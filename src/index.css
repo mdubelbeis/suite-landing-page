@@ -45,7 +45,3 @@
 .header-btn {
   @apply p-4 border-[1px] text-[12px] border-dark-blue rounded-md font-bold hover:bg-dark-blue hover:text-light-cream lg:mr-2;
 }
-
-html {
-  width: 100vw;
-}
