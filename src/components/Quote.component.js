@@ -25,32 +25,32 @@ const Quote = () => {
   }, [windowWidth]);
 
   return (
-    <div className="w-screen relative bg-dark-blue rounded-xl flex flex-col items-center quote p-4 mt-56 md:w-full lg:flex-row lg:p-10 ">
-      <div className="sticky md:-top-2 md:left-[300px] w-52 z-5 lg:absolute lg:left-[60px] lg:top-40 lg:w-60">
+    <div className="w-screen relative bg-dark-blue rounded-xl flex flex-col items-center quote mt-72 md:w-full lg:flex-row lg:h-[575px] ">
+      <div className="sticky md:-top-2 md:left-[300px] w-52 z-5 lg:absolute lg:left-0 lg:top-32 lg:w-[400px]">
         <img src={blur} alt="blur svg" />
       </div>
       <img
-        className="absolute -top-[140px] w-48 z-10 lg:ml-14 lg:-top-[67px] lg:w-80"
+        className="absolute -top-56 w-[300px] z-10 lg:ml-14 lg:-top-8 lg:w-96"
         src={image}
         alt="image of guy on phone"
       />
       <img
-        className="mt-2 mb-10 w-20 h-20 md:mt-50 md:mb-4 overflow-hidden lg:sticky lg:left-[440px] lg:mb-32 lg:mr-10"
+        className="mt-32 mb-2 w-24 h-20 md:mt-50 md:mb-4 overflow-hidden lg:sticky lg:left-[475px] lg:mb-32 lg:pr-8"
         src={curveUp}
         alt="curved line graphic"
       />
-      <div className="text-center px-2 md:px-6 lg:ml-20 lg:w-6/12 lg:sticky lg:left-[600px] lg:text-left lg:px-12">
-        <p className="text-light-cream font-light text-[40px] leading-[50px] mb-8 lg:pt-4">
+      <div className="text-center p-8 font-light lg:w-6/12 lg:sticky lg:left-full lg:text-left lg:px-20 lg:space-y-10 lg:mt-4">
+        <p className="text-light-cream font-light text-[44px] leading-[50px] lg:pt-4 mb-10">
           It just <span className="font-extrabold">works.</span>
         </p>
-        <q className="text-dark-cream leading-[32px] text-[18px] tracking-[0.09px]">
+        <q className="text-light-cream leading-[34px] text-[22px] tracking-[1.1px]">
           I really like how it is an all-in-one solution that handle
           many of the tasks that you would normally need separate
           tools to do the same job. This thing is a miracle worker.
         </q>
 
-        <div>
-          <p className="text-light-cream font-bold mt-6 mb-1">
+        <div className="my-10">
+          <p className="text-light-cream font-bold mb-2">
             JEREMY ROBINSON
           </p>
           <p className="text-dark-cream font-light text-[16px] leading-[26px] tracking-widest md:mb-10 ">

@@ -13,9 +13,7 @@ const Image = () => {
     const onLoad = () => {
       setWindowWidth(window.innerWidth);
 
-      if (windowWidth <= 375) {
-        setImage(`${Mobile}`);
-      } else if (windowWidth < 768) {
+      if (windowWidth < 768) {
         setImage(`${Mobile2x}`);
       } else if (windowWidth === 768) {
         setImage(`${Tablet}`);
